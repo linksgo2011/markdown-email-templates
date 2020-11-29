@@ -1,7 +1,6 @@
-file=README.md
-template=templates/center-align.html
+template=$1
+file=$2
 imageHost=https://github.com/linksgo2011/markdown-email-templates/raw/master/
-
 rm -rf build
 mkdir build
 
