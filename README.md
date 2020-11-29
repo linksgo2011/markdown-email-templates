@@ -29,13 +29,25 @@ TOC
 
 ## 执行脚本
 
+仓库提供了 ./buildemail.sh 脚本。第一个参数为模板文件，第二个参数为 markdown 文件。模板文件放置在 templates 目录下。脚本执行后，可以在 build 中找到 email.html。
+
 使用基本模板样式：
+
+> ./buildemail.sh templates/basic.html README.md
+
+<img src="README/preview-basic.png" alt="preview-basic" style="zoom:33%;" />
+
+
+
+使用完整样式模板样式：
 
 > ./buildemail.sh templates/center-align.html README.md
 
-第一个参数为模板文件，第二个参数为 markdown 文件。模板文件放置在 templates 目录下。脚本执行后，可以在 build 中找到 email.html
+<img src="README/center-preview.png" alt="center-preview" style="zoom:33%;" />
+
+
 
 ## 打开文件粘贴到邮件
 
-使用浏览器打开 email.html，全选后，复制粘贴到邮件编辑器中，即可看到所有的目录。
+使用浏览器打开 email.html，全选后，复制粘贴到邮件编辑器中，即可看到完整的邮件排版。
 

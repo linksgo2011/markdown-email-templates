@@ -1,6 +1,6 @@
 template=$1
 file=$2
-imageHost=https://github.com/linksgo2011/markdown-email-templates/raw/master/
+imageHost=https://raw.githubusercontent.com/linksgo2011/markdown-email-templates/main/
 rm -rf build
 mkdir build
 
